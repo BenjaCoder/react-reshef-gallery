@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	monospace;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: -40px;
+	text-shadow: 2px 2px 2px #bbb;
+}
+
+.card {
+	width: 219px;
+	height: 410px;
+	margin: 55px auto 15px;
+	user-select: none;
+}
+
+.card-frame {
+	border-radius: 4px;
+	position: absolute;
+	margin-left: 0px;
+}
+
+.card-grid {
+	display: flex;
+	gap: 20px;
+	width: 700px;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.attr-type-line, .atk-def-line, .level-frame-line {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 80%;
+	align-items: center;
+}
+
+.card-overlay-name {
+	position: relative;
+	top: 0;
+	left: 25px;
+	width: 170px;
+	font-size: 108%;
+	font-family: courier;
+	user-select: none;
+}
+
+.card-artwork {
+	width: 165px;
+	position: relative;
+	top: -2px;
+	left: 25.5px;
+	margin-bottom: -147px;
+	border-radius: 1px;
+}
+
+.level-star {
+	position: relative;
+	top: -10.5px;
+}
+
+.card-overlay-atk, .card-overlay-def {
+	display: flex;
+	width: 80px;
+	justify-content: space-between;
+	position: relative;
+	font-size: 94%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	left: 112.5px;
+	font-family: 'Courier New', Courier, monospace;
+	user-select: none;
+}
+
+.card-overlay-atk {
+	top: -475px;
+}
+
+.card-overlay-def {
+	top: -509px;
+}
+
+.card-overlay-type {
+	position: relative;
+	top: -97px;
+}
+
+.type-symbol {
+	position: relative;
+	top: -42px;
+	left: 34.5px;
+	height: 24px;
+	
+}
+
+.card-overlay-attribute {
+	position: relative;
+	top: -415px;
+}
+
+.card-details {
+	position: relative;
+	top: -495px;
+	display: flex;
+	flex-direction: column;
+	width: 96%;
+	margin: 0 auto;
+	font-size: 93%;
+	text-align: center;
+	background: linear-gradient(-35deg, rgb(234, 236, 253) 25%, #59e);
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px gray;
+	border: 1px solid grey;
+	font-weight: 500;
+	user-select: text;
+}
+
+.card-details > p {
+	margin: 3px 0;
+}
+
+.card-details > div > p {
+	margin: 3px 0;
+}
+
+.frame-pill {
+	border-radius: 18px;
+	padding: 1.5px 7px 2px;
+	box-shadow: 2px 2px 2px grey;
+}
