@@ -1020,6 +1020,108 @@ const data = [
         ],
         imageUrl: "https://ms.yugipedia.com//5/54/GreatWhite-MADU-EN-VG-artwork.png"
     },
+    {
+        id: 61,
+        name: "Wolf",
+        frame: "Normal",
+        level: 3,
+        attribute: "FOREST",
+        type: "Beast",
+        atk: 1200,
+        def: 800,
+        cost: 121,
+        passcode: "49417509",
+        lore: [
+            "A predatory beast that has become rarely seen in recent times.",
+            "It searches for prey using its excellent sense of smell."
+        ],
+        imageUrl: "https://ms.yugipedia.com//6/6b/Wolf-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 62,
+        name: "Harpie Lady",
+        frame: "Effect",
+        level: 4,
+        attribute: "WIND",
+        type: "Winged Beast",
+        atk: 1300,
+        def: 1400,
+        cost: 161,
+        passcode: "76812113",
+        lore: [
+            "A female monster that is half bird and half human.",
+            "It can power up Harpie's Pet Dragons on the own field."
+        ],
+        imageUrl: "https://ms.yugipedia.com//5/59/HarpieLady-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 63,
+        name: "Harpie Lady Sisters",
+        frame: "Effect",
+        level: 6,
+        attribute: "WIND",
+        type: "Winged Beast",
+        atk: 1950,
+        def: 2100,
+        cost: 116,
+        passcode: "12206212",
+        lore: [
+            "A trio of Harpie Ladies, sisters half bird and half human.",
+            "It can power up Harpie's Pet Dragons on the own field two levels."
+        ],
+        imageUrl: "https://ms.yugipedia.com//e/e5/HarpieLadySisters-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 64,
+        name: "Tiger Axe",
+        frame: "Normal",
+        level: 4,
+        attribute: "FOREST",
+        type: "Beast-Warrior",
+        atk: 1300,
+        def: 1100,
+        cost: 140,
+        passcode: "49791927",
+        lore: [
+            "A tigerlike beast warrior that is armed with a hefty axe.",
+            "It doles out powerful blows with lightning quickness."
+        ],
+        imageUrl: "https://ms.yugipedia.com//a/ad/TigerAxe-TF04-JP-VG-2.jpg"
+    },
+    {
+        id: 65,
+        name: "Silver Fang",
+        frame: "Normal",
+        level: 3,
+        attribute: "FOREST",
+        type: "Beast",
+        atk: 1200,
+        def: 800,
+        cost: 121,
+        passcode: "90357090",
+        lore: [
+            "A strikingly gorgeous wolf that glows in a whitish silver.",
+            "Despite its beautiful look, it is extremely vicious."
+        ],
+        imageUrl: "https://ms.yugipedia.com//1/1a/SilverFang-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 66,
+        name: "Kojikocy",
+        frame: "Normal",
+        level: 4,
+        attribute: "EARTH",
+        type: "Warrior",
+        atk: 1500,
+        def: 1200,
+        cost: 183,
+        passcode: "01184620",
+        lore: [
+            "A thoroughly evil hunter that considers humans fair game.",
+            "Its brute strength lets it crush rocks into shards."
+        ],
+        imageUrl: "https://ms.yugipedia.com//6/64/Kojikocy-MADU-EN-VG-artwork.png"
+    },
 ]
 
 export default data;
