@@ -1122,6 +1122,159 @@ const data = [
         ],
         imageUrl: "https://ms.yugipedia.com//6/64/Kojikocy-MADU-EN-VG-artwork.png"
     },
+    {
+        id: 67,
+        name: "Prefectly Ultimate Great Moth",
+        frame: "Normal",
+        level: 8,
+        attribute: "FOREST",
+        type: "Insect",
+        atk: 3500,
+        def: 3000,
+        cost: 255,
+        passcode: "48579379",
+        lore: [
+            "The final evolution of the insect monster Great Moth.",
+            "It is the most powerful among all the insect type monsters."
+        ],
+        imageUrl: "https://ms.yugipedia.com//4/45/PerfectlyUltimateGreatMoth-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 68,
+        name: "Garoozis",
+        frame: "Normal",
+        level: 5,
+        attribute: "FIRE",
+        type: "Beast-Warrior",
+        atk: 1800,
+        def: 1500,
+        cost: 41,
+        passcode: "14977074",
+        lore: [
+            "A ferocious beast warrior that has the head of a dragon.",
+            "Its axe attacks have the power to inflict severe damage."
+        ],
+        imageUrl: "https://ms.yugipedia.com//4/49/Garoozis-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 69,
+        name: "Thousand Dragon",
+        frame: "Normal",
+        level: 7,
+        attribute: "FIRE",
+        type: "Dragon",
+        atk: 2400,
+        def: 2000,
+        cost: 12,
+        passcode: "41462083",
+        lore: [
+            "A dragon that has lived for thousands and thousands of years.",
+            "It breathes laboriously through its nostrils."
+        ],
+        imageUrl: "https://ms.yugipedia.com//8/81/ThousandDragon-TF05-JP-VG-2.png"
+    },
+    {
+        id: 70,
+        name: "Fiend Kraken",
+        frame: "Normal",
+        level: 4,
+        attribute: "WATER",
+        type: "Aqua",
+        atk: 1200,
+        def: 1400,
+        cost: 161,
+        passcode: "77456781",
+        lore: [
+            "An enormous squid that hides itself beneath ocean waves.",
+            "It appears from the sea suddenly and attacks."
+        ],
+        imageUrl: "https://ms.yugipedia.com//0/08/FiendKraken-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 71,
+        name: "Jellyfish",
+        frame: "Normal",
+        level: 4,
+        attribute: "WATER",
+        type: "Aqua",
+        atk: 1200,
+        def: 1500,
+        cost: 183,
+        passcode: "14851496",
+        lore: [
+            "A jellyfish that drifts aimlessly on the sea among waves.",
+            "Its body is translucent, making it hard to distinguish its shape."
+        ],
+        imageUrl: "https://ms.yugipedia.com//d/db/Jellyfish-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 72,
+        name: "Cocoon of Evolution",
+        frame: "Normal",
+        level: 3,
+        attribute: "FOREST",
+        type: "Insect",
+        atk: 0,
+        def: 2000,
+        cost: 255,
+        passcode: "40240595",
+        lore: [
+            "An insect cocoon that is incapable of mounting an attack.",
+            "It can take in an insect larva and make it evolve into maturity."
+        ],
+        imageUrl: "https://ms.yugipedia.com//c/c4/CocoonofEvolution-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 73,
+        name: "Kairyu-Shin",
+        frame: "Effect",
+        level: 5,
+        attribute: "WATER",
+        type: "Sea Serpent",
+        atk: 1800,
+        def: 1500,
+        cost: 41,
+        passcode: "76634149",
+        lore: [
+            "A gigantic sea dragon that creates massive tidal waves.",
+            "It has the power to turn the field into a sea."
+        ],
+        imageUrl: "https://ms.yugipedia.com//d/d5/KairyuShin-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 74,
+        name: "Giant Soldier of Stone",
+        frame: "Effect",
+        level: 3,
+        attribute: "EARTH",
+        type: "Rock",
+        atk: 1300,
+        def: 2000,
+        cost: 319,
+        passcode: "13039848",
+        lore: [
+            "A massive warrior hewn from boulders that rattles the earth.",
+            "It has the power to turn the field into an arena."
+        ],
+        imageUrl: "https://ms.yugipedia.com//5/57/GiantSoldierofStone-MADU-EN-VG-artwork.png"
+    },
+    {
+        id: 75,
+        name: "Man-Eating Plant",
+        frame: "Normal",
+        level: 2,
+        attribute: "DARK",
+        type: "Plant",
+        atk: 800,
+        def: 600,
+        cost: 59,
+        passcode: "49127943",
+        lore: [
+            "A thorny plant with what appears to be a lovely flower.",
+            "However, the flower is used to swallow unsuspecting prey."
+        ],
+        imageUrl: "https://ms.yugipedia.com//1/10/ManEatingPlant-MADU-EN-VG-artwork.png"
+    },
 ]
 
 export default data;
